@@ -24,7 +24,7 @@ def articles():
                     "the BIG 3 about functions.",
             "date": "Oct 25, 2021",
             "author": "Akshaya LR",
-            "link": "https://akshayalr.hashnode.dev/python-decorators"
+            "link": "https://akshayal.hashnode.dev/python-decorators"
         }
 
     ]
