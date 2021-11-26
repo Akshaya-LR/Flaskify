@@ -1,0 +1,15 @@
+{% include 'header.html' %}
+
+    <div class="container">
+        <div class="text-center mt-5">
+            <h1>Articles</h1>
+            {% for article in articles %}
+            <li><a href="articles/{{article.id}}">{{article.title}}</a></li>
+            {% endfor %}
+        </div>
+    </div>
+
+
+
+{% include 'footer.html' %}
+
